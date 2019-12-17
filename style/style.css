@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 50px;
+    font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
     color: #eee;
 
@@ -134,7 +134,7 @@ li {
 }
 
 .nav-link {
-    font-family: 'Lily Script One', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
     padding: 1rem;
 
@@ -213,7 +213,7 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'The Historia Demo', serif;
     background: linear-gradient(to top, #ffe838, #ffdb57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
