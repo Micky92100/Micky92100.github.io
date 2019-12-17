@@ -43,6 +43,10 @@ img {
 
 
 /*Start reusable*/
+#intro-paragraph {
+    font-style: italic!important;
+}
+
 .container {
     width: 90%;
     max-width: 120rem;
