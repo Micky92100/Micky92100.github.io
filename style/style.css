@@ -9,12 +9,10 @@ html {
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
     color: #eee;
-
 }
 
 body {
-
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     background: url("../images/site-bg.jpg") no-repeat center fixed;
     background-size: cover;
@@ -38,13 +36,12 @@ img {
     width: 80%;
     border-radius: 40px;
 }
-
 /*End global*/
 
 
 /*Start reusable*/
 #intro-paragraph {
-    font-style: italic!important;
+    font-style: italic !important;
 }
 
 .container {
@@ -102,7 +99,6 @@ img {
 .has-margin-right {
     margin-right: 5rem;
 }
-
 /*End reusable*/
 
 
@@ -141,7 +137,6 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
     padding: 1rem;
-
 }
 
 .nav-link:hover,
@@ -198,7 +193,6 @@ li {
     align-self: flex-end;
     transform-origin: left;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-
 }
 
 .open.bar.end {
@@ -229,7 +223,6 @@ li {
     font-size: 2rem;
     font-weight: 300;
 }
-
 /*End header*/
 
 
@@ -245,13 +238,10 @@ li {
     text-transform: uppercase;
     line-height: 0;
     margin-bottom: 6rem;
-
 }
 
 .about-heading h1 {
-    font-size: 8rem;
-    opacity: .3;
-    margin-bottom: 1rem;
+    font-size: 3rem;
 }
 
 .about-heading h6 {
@@ -288,7 +278,6 @@ li {
 .fa-dribbble-square:hover {
     color: #ea4c89;
 }
-
 /*End about*/
 
 
@@ -310,7 +299,6 @@ li {
 }
 
 .skills h1 {
-
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
@@ -318,15 +306,13 @@ li {
 }
 
 .icon-container {
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: 7rem;
     border: 3px solid #ffe838;
     background-color: #fd57bf;
-    margin: 8rem 15rem;
-
+    margin: 5rem 15rem;
     display: flex;
     transform: rotate(45deg);
-
 }
 
 .icon-container i {
@@ -335,8 +321,8 @@ li {
     margin: auto;
     transform: rotate(-45deg);
 }
-
 /*End services*/
+
 
 /*Start portfolio*/
 .portfolio-item {
@@ -381,7 +367,6 @@ li {
 .portfolio-description .cta:hover {
     color: #2f67cd;
 }
-
 /*End services*/
 
 
@@ -396,7 +381,6 @@ li {
     list-style: none;
     text-align: left;
     width: 70%;
-
 }
 
 .timeline h1 {
@@ -405,7 +389,6 @@ li {
     font-weight: 300;
     margin-bottom: 1rem;
     opacity: .3;
-
 }
 
 .timeline .date {
@@ -413,14 +396,12 @@ li {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
-
 }
 
 .timeline .date:last-of-type {
     padding-bottom: 0;
     margin-bottom: 0;
     border: none;
-
 }
 
 .timeline .date::before,
@@ -437,7 +418,6 @@ li {
     text-align: right;
     min-width: 12rem;
     font-size: 1.5rem;
-
 }
 
 .timeline .date::after {
@@ -448,9 +428,7 @@ li {
     height: 1.5rem;
     width: 1.5rem;
     background-color: #313534;
-
 }
-
 /*timeline*/
 
 
@@ -476,7 +454,6 @@ textarea {
     margin-bottom: 5px;
     border: none;
     outline-color: #fd57bf;
-
 }
 
 input[type='submit'] {
@@ -494,7 +471,6 @@ input [type='submit']:hover {
     color: #221e3f;
     background-color: #ffe838;
 }
-
 /*End contact*/
 
 
@@ -518,7 +494,6 @@ input [type='submit']:hover {
     display: flex;
     animation: pulse 2s infinite;
     cursor: pointer;
-
 }
 
 .up i {
@@ -530,8 +505,8 @@ input [type='submit']:hover {
 .copyright p {
     font-size: 1.4rem;
 }
-
 /* End footer */
+
 
 /* Start animations */
 @keyframes pulse {
@@ -545,14 +520,13 @@ input [type='submit']:hover {
         box-shadow: 0 0 0 rgba(253, 87, 191, 0);
     }
 }
-
 /* End animation */
 
-/* media queries */
 
+/* media queries */
 @media screen and (max-width: 768px) {
     body {
-        width: 100%;
+        width: 100% !important;
         height: 100%;
         background: url("../images/site-bg.jpg") no-repeat center fixed;
         background-size: cover;
@@ -584,7 +558,6 @@ input [type='submit']:hover {
 
     .section-heading h1 {
         font-size: 3rem;
-
     }
 
     .about-details .nav-list {
@@ -593,12 +566,11 @@ input [type='submit']:hover {
 
     .about-details li {
         margin: 0 2rem;
-
     }
 
     .icon-container {
-        width: 7rem;
-        height: 7rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .icon-container i {
@@ -609,6 +581,7 @@ input [type='submit']:hover {
         margin: 0 0 0 auto;
     }
 
+
     .timeline .date:before {
         left: 20rem;
     }
@@ -616,6 +589,7 @@ input [type='submit']:hover {
     .timeline .date:after {
         left: -5.9rem;
     }
+
 
     @media screen and (max-width: 600px) {
         .menu-toggler {
@@ -640,7 +614,7 @@ input [type='submit']:hover {
         }
 
         .profile-img {
-            margin: 0 0 7rem 0;
+            margin: auto;
         }
 
         .portfolio-item {
@@ -662,7 +636,6 @@ input [type='submit']:hover {
 
         .timeline .date::before {
             font-size: 1.4rem;
-
         }
 
         form {
@@ -672,10 +645,6 @@ input [type='submit']:hover {
         .up {
             right: 2rem;
         }
-
-
     }
-
-
 }
 
